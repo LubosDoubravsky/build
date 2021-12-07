@@ -70,3 +70,55 @@ img{
 
 
 }
+
+.main {
+    background-color: $grey;
+    &-block {
+        display: flex;
+        padding: 40px 0 15px 0;
+    }
+    &-text {
+        flex-basis: 50%;
+        &__title {
+            font-size: 41px;
+            color: $accent;
+            padding-right: 200px;
+            line-height: 55px;
+            margin: 45px 0;
+        }
+        &__subtitle {
+            font-size: 20px;
+            line-height: 65px;
+            color: $accent;
+        }
+    }
+    &-image {
+        margin-right: -55px;
+    }
+
+
+    &-list {
+        margin: 40px 0 0 0;
+        padding: 0 250px 0 0;
+        &__item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        &__image {
+            width: 40px;
+            height: 40px;
+            border: 2px solid #ffd200;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 30px;
+        }
+        &__text {
+            font-size: 14px;
+            line-height: 24px;
+            color: $accent;
+        }
+    }
+}

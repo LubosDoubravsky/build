@@ -82,4 +82,76 @@ img {
   border-radius: 10px;
   margin-left: 30px;
 }
+
+.main {
+  background-color: #f5f5f5;
+}
+
+.main-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 40px 0 15px 0;
+}
+
+.main-text {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+}
+
+.main-text__title {
+  font-size: 41px;
+  color: #333;
+  padding-right: 200px;
+  line-height: 55px;
+  margin: 45px 0;
+}
+
+.main-text__subtitle {
+  font-size: 20px;
+  line-height: 65px;
+  color: #333;
+}
+
+.main-image {
+  margin-right: -55px;
+}
+
+.main-list {
+  margin: 40px 0 0 0;
+  padding: 0 250px 0 0;
+}
+
+.main-list__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 20px;
+}
+
+.main-list__image {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ffd200;
+  border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-right: 30px;
+}
+
+.main-list__text {
+  font-size: 14px;
+  line-height: 24px;
+  color: #333;
+}
 /*# sourceMappingURL=style.css.map */
