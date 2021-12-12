@@ -1,8 +1,8 @@
 @import "vars";
-
+@import "fonts";
 
 body {
-    font-family: sans-serif
+    @include reg
 }
 
 img{
@@ -61,6 +61,7 @@ img{
         text-decoration: none;
         display: block;
         margin-top: 5px;
+        @include bold
     }
 
     &__button {
@@ -69,6 +70,7 @@ img{
         font-weight: 400;
         border-radius: 10px;
         margin-left: 30px;
+        @include bold
     }
 
 
@@ -93,6 +95,7 @@ img{
             color: $accent;
             padding-right: 200px;
             line-height: 55px;
+            font-family: 'Museo Sans Bold';
             margin: 45px 0 20px 0;
             @media (max-width: 1200px) {
                 padding-right: 10px;
@@ -109,6 +112,7 @@ img{
             @media (max-width: 640px) {
                 font-size: 16px;
             }
+            @include bold
         }
     }
     &-image {
